@@ -1,4 +1,4 @@
-# Coordinate-Aware Modulation for Neural Fields
+# Coordinate-Aware Modulation for Neural Fields (ICLR 2024 Spotlight)
 ### Joo Chan Lee, Daniel Rho, Seungtae Nam, Jong Hwan Ko, and Eunbyung Park
 
 ### [[Project Page](https://maincold2.github.io/cam/)] [[Paper(arxiv)](https://arxiv.org/abs/2311.14993)]
@@ -76,10 +76,12 @@ PYTHONPATH=./ python examples/train_mlp_tnerf.py --scene [scene_name] --data_roo
 
 ## BibTeX
 ```
-@article{lee2023cam,
+@inproceedings{
+lee2024cam,
 title={Coordinate-Aware Modulation for Neural Fields},
-author={Lee, Joo Chan and Rho, Daniel and Nam, Seungtae and Ko, Jong Hwan and Park, Eunbyung},
-journal={arXiv preprint arXiv:2311.14993},
-year={2023}
+author={Joo Chan Lee and Daniel Rho and Seungtae Nam and Jong Hwan Ko and Eunbyung Park},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=4UiLqimGm5}
 }
 ```
